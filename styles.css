@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    background-color: rgb(169, 252, 210);
+     font-family: 'roboto', sans-serif;
+}
+
+nav{
+    display: inline;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #07640f;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav li{
+    border-radius: 50%;
+    width: 5rem;
+    list-style: none;
+    background-color: azure;
+}
+
+img {
+    height: 100px;
+}
+
+.about{
+    width: 40rem;
+   text-align: center;
+ }
+
+ .TImg {
+    justify-content: space-between;
+    text-align: center;
+ }
+
+.Work{
+    width: 83rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+ .videos {
+     background-color: lab(8.92% -0.3 -8.84);
+     display: flex;
+     width: 78rem;
+     justify-content: space-between;
+     color: azure;
+     list-style: none;
+     padding: 2rem;
+     text-align: center;
+}
+
+.Resume{
+     width:40rem;
+}
+.re {
+    justify-self: center;
+    text-align: center;
+}
+
+ .R {
+    width: 38rem;
+    display: grid;
+    background-color: lab(8.92% -0.3 -8.84); 
+    color: azure;
+}
+
+.offers {
+    justify-content: space-around;
+    color: black;
+    width: 37rem;
+    text-align: center;
+}
+
+.contact {
+    width: 40rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.He {
+    background-color: #07640f;
+    border-width: thick;
+    width: 10rem;
+    color: azure;
+    text-align: center;
+    justify-self: center;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    width: 35rem;
+    justify-self: center;
+}
+
+div{
+    background-color: azure;
+    display: flex;
+    border-radius: 5%;
+}
+
+footer{
+    background-color: aqu;
+    background-color: #07640f;
+}
+
+.f{
+    flex-wrap: wrap;
+    width: 50rem;
+    justify-content: space-around;
+    justify-self: center;
+    border-radius: 20%;
+}
+.RnA {
+    background-color: rgb(169 , 252, 210);
+    justify-content: space-between;
+}

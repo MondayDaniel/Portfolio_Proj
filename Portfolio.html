@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Freecodecamp PORTFOLIO</title>
-</head>
-<body>
-    <NAv>
-        <ul>
+ <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Freecodecamp PORTFOLIO</title>
+     <link rel="stylesheet" href="styles.css">
+   </head>
+    <body>
+    <!--navbar-->
+     <nav>
+        <ul class="nav">
             <li>
                 <a href=" HOME">HOME</a>
             </li>
@@ -22,81 +24,100 @@
             <li>
                 <a href="CONTACT"> CONTACT</a>
             </li>
-
         </ul>
-    </NAv>
+     </nav>
 
-    <SECTIOn>
-        <h1>About :</h1>
-        <img src="https://tse3.mm.bing.net/th/id/OIP.RlPYGcL4rFzFGMP9BmyPSwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" 
-           alt="freecodecamp"> :
-         Freecodecamp is a non-profit educational <br> organization that consists of an
-          interactive learning web platform, an online community forum, chat rooms, <br>
+    <!--sections-->
+    <div class="RnA">
+         <section class="about">
+        <h1 class="He">About :</h1>
+        <div class="TImg"><img src="https://tse3.mm.bing.net/th/id/OIP.RlPYGcL4rFzFGMP9BmyPSwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" 
+           alt="freecodecamp"> 
+        <p>: Freecodecamp is a non-profit educational organization that consists of an
+          interactive learning web platform, an online community forum, chat rooms,
            online publications and local organizations that intend to make learning
-            software development and <br> computer programming accessible to anyone.
-    </SECTIOn>
+            software development and computer programming accessible to anyone.
+        </p> 
+        </div>   
+     </section>
 
-    <SEction>
-        <h2> <a href="WORK"></a>Works</h2>
-        <p></p><li>LLMs from Scratch </li>
-        <iframe width="709" height="399" src="https://www.youtube.com/embed/p3sij8QzONQ"
-         title="LLMs from Scratch – Practical Engineering from Base Model to PPO RLHF" 
-         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-          picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-           allowfullscreen></iframe>
-
-          <p> <li>JavaScript DOM Manipulation</li>
-           <iframe width="709" height="399" src="https://www.youtube.com/embed/5fb2aPlgoys" 
-           title="JavaScript DOM Manipulation – Full Course for Beginners" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-            picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe></p>
-
-            <p><li>Intermediate Python Programming Course</li>
-                <iframe width="709" height="399" src="https://www.youtube.com/embed/HGOBQPFzWKo" 
-                title="Intermediate Python Programming Course" frameborder="0" allow="accelerometer;
-                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                 allowfullscreen></iframe></p>
-    </SEction>
-
-     <SEction>
-        <h2>Resume</h2>
-         <p>NAME: freecodecamp </p>
-        <P>CEO: Quincy Larson</P>
-        <div>OFFERS :
-            <P> -Freecodecamp offers training in courses like:
+     <section class="Resume">
+        <h2 class="He">Resume</h2>
+        <div class="R re"> 
+            <p>NAME: freecodecamp </p>
+         <P>CEO: Quincy Larson</P>
+          <div class="offers re"><p>OFFERS:<br>
+           -Freecodecamp offers training in courses like :</p>
                 <ul><li>Responsive Web Design </li>
                     <li>Python</li>
                     <li>Web Development</li>
                     <li>JavaScript</li>
                 </ul>
-            </P>
+           
             <p>-Freecodecamp offers access to a large learning community of 
                 students, alumni, and educators.
             </p>
             <p>-Freecodecamp help in enhancing one technical skills with
                  world-class and project-based curriculum.
             </p>
-        </div> 
-        <P>COST :freecodecamp classes are free</P>
-        
-     </SEction>
+          </div> 
+         <P>COST :freecodecamp classes are free</P>
+        </div>
+       </section>
+    </div>
 
-      <SEction>
-        <h2>CONTACTS</h2>
-        <P> email: <br><a href="mailto:team@freecodecamp.org">
-            team@freecodecamp.org</a></P>
-        <p>Youtube:<a href="http://www.youtube.com/@freecodecamp">@freecodecamp</a></p>
-      </SEction>
-    <FOOter>
-        <div>
+     <section class="Work">
+        <h2 class="He"> <a href="WORK"></a>Works</h2>
+        <div class="videos">
+            <p> <li>LLMs from Scratch </li>
+                <iframe width="709" height="399" src="https://www.youtube.com/embed/p3sij8QzONQ"
+                 title="LLMs from Scratch – Practical Engineering from Base Model to PPO RLHF" 
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                 picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                 allowfullscreen></iframe>
+                
+           </p>
+
+           <p><li>JavaScript DOM Manipulation</li>
+               <iframe width="709" height="399" src="https://www.youtube.com/embed/5fb2aPlgoys" 
+               title="JavaScript DOM Manipulation – Full Course for Beginners" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+               picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+               allowfullscreen></iframe>
+                
+            </p>
+
+            <p><li>Intermediate Python Programming Course</li>
+                <iframe width="709" height="399" src="https://www.youtube.com/embed/HGOBQPFzWKo" 
+                 title="Intermediate Python Programming Course" frameborder="0" allow="accelerometer;
+                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                 allowfullscreen></iframe>
+                
+            </p>
+        </div>
+    
+     </section>
+
+      <section class="contact">
+        <h2 class="He">CONTACTS</h2>
+       <div class="content"> 
+         <p> email: <br><a href="mailto:team@freecodecamp.org">
+            team@freecodecamp.org</a></p>
+         <p>Youtube:<a href="http://www.youtube.com/@freecodecamp">@freecodecamp</a></p>
+       </div>
+    </section>
+
+      <!--footer-->
+     <footer>
+        <hr>
+        <div class="f">
             <p>AUCTHOR : Monday Daniel</p>
             <p>Phone : <a href="tel:+2349087833998">+234 908 7833 998</a></p>
             <p>DISCLAIMER : The information provided in this page are not 100% accurate,
-                 consumers discretion is advised</p>
-            
+              consumers discretion is advised
+            </p>
         </div>
-    </FOOter>
-</body>
+      </footer>
+   </body>
 </html>
